@@ -12,6 +12,6 @@ tools are at v0.4.2.
 This fixture remains dependency-free. Do not add npm or Gradle module dependencies
 merely to accommodate carrier or parent remediation tests. It does have a
 supply-chain gate workflow (`.github/workflows/supply-chain.yml:16`, pinned to
-v0.4.0); a bump-it routine may move that pin like any own Action. Retain the
+v0.6.0); a bump-it routine may move that pin like any own Action. Retain the
 selected catalog release, plan, generated wrapper hashes/modes, verification and
 CI evidence, and record each run in VALIDATION.md.

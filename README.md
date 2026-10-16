@@ -15,7 +15,7 @@ distribution SHA-256. [VALIDATION.md](VALIDATION.md) records the 9.7.1 run.
 The Actions `Check` workflow runs on main and PRs. It checks out directly with git
 so action-pin updates do not distract from this wrapper-only fixture. There are no
 third-party build dependencies. The `supply-chain` workflow, added in #2, calls the
-supply-chain gate pinned to v0.4.0. The gate runs on pull requests, pushes to main
+supply-chain gate pinned to v0.6.0. The gate runs on pull requests, pushes to main
 and manual dispatch; it has no schedule (removed 2026-10-12) and, since v0.4.0, no
 open-PR rescan. The gate pin is an own Action (`ownPackages`), so bump-it's routine
 may move it. `.github/supply-chain.json` sets the seven-day window and the root
